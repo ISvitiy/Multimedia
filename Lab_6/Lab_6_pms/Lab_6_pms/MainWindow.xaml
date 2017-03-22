@@ -1,0 +1,52 @@
+﻿<Window x:Class="Lab_6_pms.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lab_6" Height="550" Width="725" AllowsTransparency="True"
+        Background="Transparent" WindowStyle="None"
+        ResizeMode="CanResizeWithGrip"
+        Top="100" Left="200">
+    <Canvas x:Name="LayoutRoot" Background="#aaffffff">
+        <Label Width="725" Background="Aqua"  Height="30" MouseLeftButtonDown="Label_MouseLeftButtonDown">
+            <Button Name="btnExit" Height="20" Width="20" Margin="690,0,0,0" Content="X" Background="Aqua" BorderThickness="0" FontSize="12" FontWeight="Bold" Foreground="White" Click="btnExit_Click"/>
+        </Label>
+        <Ellipse x:Name="testEllipse"
+                 StrokeThickness="7" Stroke="Orange"
+                 HorizontalAlignment="Center" Height="100" VerticalAlignment="Center"
+                 Width="172" MouseLeftButtonDown="shape_MouseLeftButtonDown"
+                 MouseMove="shape_MouseMove" MouseLeftButtonUp="shape_MouseLeftButtonUp" Canvas.Left="200" Canvas.Top="100" Canvas.Right="372" Canvas.Bottom="200">
+            <Ellipse.Fill>
+                <SolidColorBrush Color="Yellow" Opacity="0.5"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Rectangle
+                   StrokeThickness="7" Height="100" Stroke="Red" Width="100" 
+                   HorizontalAlignment="Left" VerticalAlignment="Bottom" Canvas.Left="10"
+                   Canvas.Top="40" MouseLeftButtonDown="shape_MouseLeftButtonDown"
+                   MouseLeftButtonUp="shape_MouseLeftButtonUp" MouseMove="shape_MouseMove"
+                   Canvas.Right="110" Canvas.Bottom="140">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Red" Opacity="0.5"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle
+                    Width="200" Height="100" Canvas.Left="250" Canvas.Top="200"
+                    Stroke="Purple" 
+                    StrokeThickness="7"
+                    MouseLeftButtonDown="shape_MouseLeftButtonDown" MouseMove="shape_MouseMove"
+                    MouseLeftButtonUp="shape_MouseLeftButtonUp"
+                    Canvas.Right="450" Canvas.Bottom="300">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Blue" Opacity="0.5"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Polygon
+            Points="50 300 150 300 170 250 100 200 40 250"
+            Stroke="DarkGreen" 
+            StrokeThickness="7"
+            MouseDown="myPoly_MouseDown" MouseMove="canvas1_MouseMove" MouseUp="canvas1_MouseUp">
+            <Polygon.Fill>
+                <SolidColorBrush Color="Green" Opacity="0.5"/>
+            </Polygon.Fill>
+        </Polygon>
+    </Canvas>
+</Window>

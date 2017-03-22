@@ -1,0 +1,13 @@
+c:\users\andrii\documents\visual studio 2013\Projects\Lab_6_pms\Lab_6_pms\bin\Debug\Lab_6_pms.exe.config
+c:\users\andrii\documents\visual studio 2013\Projects\Lab_6_pms\Lab_6_pms\bin\Debug\Lab_6_pms.exe
+c:\users\andrii\documents\visual studio 2013\Projects\Lab_6_pms\Lab_6_pms\bin\Debug\Lab_6_pms.pdb
+c:\users\andrii\documents\visual studio 2013\Projects\Lab_6_pms\Lab_6_pms\obj\Debug\Lab_6_pms.csprojResolveAssemblyReference.cache
+c:\users\andrii\documents\visual studio 2013\Projects\Lab_6_pms\Lab_6_pms\obj\Debug\MainWindow.baml
+c:\users\andrii\documents\visual studio 2013\Projects\Lab_6_pms\Lab_6_pms\obj\Debug\MainWindow.g.cs
+c:\users\andrii\documents\visual studio 2013\Projects\Lab_6_pms\Lab_6_pms\obj\Debug\App.g.cs
+c:\users\andrii\documents\visual studio 2013\Projects\Lab_6_pms\Lab_6_pms\obj\Debug\Lab_6_pms_MarkupCompile.cache
+c:\users\andrii\documents\visual studio 2013\Projects\Lab_6_pms\Lab_6_pms\obj\Debug\Lab_6_pms.g.resources
+c:\users\andrii\documents\visual studio 2013\Projects\Lab_6_pms\Lab_6_pms\obj\Debug\Lab_6_pms.Properties.Resources.resources
+c:\users\andrii\documents\visual studio 2013\Projects\Lab_6_pms\Lab_6_pms\obj\Debug\Lab_6_pms.csproj.GenerateResource.Cache
+c:\users\andrii\documents\visual studio 2013\Projects\Lab_6_pms\Lab_6_pms\obj\Debug\Lab_6_pms.exe
+c:\users\andrii\documents\visual studio 2013\Projects\Lab_6_pms\Lab_6_pms\obj\Debug\Lab_6_pms.pdb
